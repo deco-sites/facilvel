@@ -1,0 +1,43 @@
+{
+  "seo": {
+    "type": "website",
+    "jsonLDs": [],
+    "noIndexing": false,
+    "titleTemplate": "Venda seu carro",
+    "descriptionTemplate": "O melhor lugar para vender o seu carro Somos uma empresa que compra seu carro em até 30 minutos. O pagamento é sempre à vista! Sem tempo? Avaliamos seu veículo onde você estiver!",
+    "title": "Venda Seu Carro",
+    "favicon": "https://assets.decocache.com/boutique-motors/c1de65ac-a9b2-44b5-b343-cb07077c3f90/favicon.png",
+    "image": "https://assets.decocache.com/boutique-motors/2e6d81d9-e249-4a87-9c72-bf46c4d389ae/Imagem-do-WhatsApp-de-2025-04-19-a(s)-14.31.28_f7745227.jpg",
+    "description": "Venda seu carro em 30 minutos"
+  },
+  "global": [
+    {
+      "__resolveType": "htmx/sections/htmx.tsx"
+    }
+  ],
+  "routes": [
+    {
+      "__resolveType": "website/loaders/pages.ts"
+    },
+    {
+      "__resolveType": "website/loaders/redirects.ts"
+    }
+  ],
+  "caching": {
+    "directives": []
+  },
+  "__resolveType": "site/apps/site.ts",
+  "firstByteThresholdMS": true,
+  "theme": {
+    "__resolveType": "Boutique Motors"
+  },
+  "abTesting": {
+    "replaces": [],
+    "includeScriptsToHead": {
+      "includes": []
+    }
+  },
+  "flavor": {
+    "framework": "fresh"
+  }
+}

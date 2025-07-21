@@ -1,0 +1,276 @@
+{
+  "name": "Venda seu Carro",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Header.tsx",
+      "logo": {
+        "image": "https://assets.decocache.com/boutique-motors/75a604b5-a969-44fd-864d-d719c7d2c3a8/cropped-Design-sem-nome-2024-02.png",
+        "alt": "Boutique Motors",
+        "width": 500,
+        "height": 116
+      },
+      "navItems": [
+        {
+          "label": "Quero Comprar",
+          "href": "https://boutiquemotors.com.br/",
+          "openInNewTab": true
+        },
+        {
+          "label": "Perguntas Frequentes",
+          "href": "#faq"
+        },
+        {
+          "label": "Unidades",
+          "href": "#unidades"
+        }
+      ],
+      "cta": {
+        "href": "#contato",
+        "text": "Solicite uma Avaliação"
+      }
+    },
+    {
+      "__resolveType": "site/sections/HeroLeadCapture.tsx",
+      "title": "O melhor lugar para vender o seu carro",
+      "description": "Somos uma empresa que compra seu carro em até 30 minutos. O pagamento é sempre à vista! Sem tempo? Avaliamos seu veículo onde você estiver!",
+      "airtable": {
+        "baseId": "appzzwOdJCxeLkj8E",
+        "tableId": "tblBcySEG6YdC24ab",
+        "authToken": "patNORziOSBmYP0f9.88756bd9a0fdb4dde9e14c62fef14e15af7f139addba279bf5d3319e648fb3d5"
+      },
+      "successMessage": "Sucesso! Nossa equipe entrará em contato.",
+      "bannerImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/afee5aab-7735-40e5-b624-7268eb1d0541/download.webp",
+      "placeholders": {
+        "submitButtonText": "Avaliar Agora",
+        "nome": "Nome",
+        "email": "E-mail",
+        "telefone": "Telefone",
+        "marca": "Marca (Ex. Fiat)",
+        "modelo": "Modelo (Ex. Mobi)",
+        "ano": "Ano/Mod (Ex. 2021)",
+        "kmAtual": "KM Atual (Ex. 2000Km)"
+      },
+      "maxBannerHeight": 300,
+      "banners": [
+        {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/car-selling/ac985484-5584-4c1e-adb8-269d31755f04/BANNER_1.png",
+          "desktopImage": {
+            "image": "https://assets.decocache.com/boutique-motors/cae8026d-84fd-4725-adca-f221c9d3d943/bannerBoutiqueMotors-20250627-1440x300-3-(1).jpg"
+          },
+          "mobileImage": {
+            "image": "https://assets.decocache.com/boutique-motors/05370eaa-bbbb-428e-8ff2-e18273dc6b7c/bannerBoutiqueMotors-20250627-375x300-3.jpg"
+          }
+        }
+      ],
+      "bannersWidth": 1440,
+      "bannersHeight": 300,
+      "desktopMaxBannerHeight": 300,
+      "desktopBannersWidth": 1440,
+      "desktopBannersHeight": 300,
+      "mobileBannersWidth": 375,
+      "mobileBannersHeight": 300,
+      "mobileMaxBannerHeight": 0,
+      "infiniteBanners": false,
+      "interval": 8
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/video.tsx",
+        "title": "<p>Veja como é fácil e seguro</p>",
+        "description": "Seu carro pode valer mais do que você pensa!",
+        "videoUrl": "https://assets.decocache.com/boutique-motors/04aae400-4ba3-487a-8609-ed4ccec382b7/Consigne-seu-carro-na-melhor-loja-da-cidade!---Na-Boutique-Motors-oferecemos-a-melhor-experiencia-de-consignacao-para-voce-vender-seu-carro-com-rapidez-e-seguranca.-Aqui-voce-aproveita-As-melhores-taxas-da-cidadeU.mp4",
+        "height": 400
+      }
+    },
+    {
+      "__resolveType": "site/sections/Steps.tsx",
+      "title": "Quer vender o seu carro?",
+      "description": "Aqui o processo é prático, transparente e seguro! A compra acontece em poucos passos:",
+      "steps": [
+        {
+          "label": "Whatsapp",
+          "icon": "https://assets.decocache.com/boutique-motors/7d1a1855-3aaa-400b-8286-63d01c13107c/form.png",
+          "text": "Preencha o Formulário com os seus melhores contatos"
+        },
+        {
+          "label": "Avaliação Técnica",
+          "icon": "https://assets.decocache.com/boutique-motors/edfa5f81-4f9d-4e5a-8ad4-c0ec7d926a57/Car.png",
+          "text": "Agende uma avaliação técnica em nossa loja ou no seu endereço"
+        },
+        {
+          "label": "Formalização",
+          "icon": "https://assets.decocache.com/boutique-motors/24c94627-3614-4ab5-b73b-f5be7b4d9980/like-shapes.png",
+          "text": "Realize a formalização dos documentos em cartório"
+        },
+        {
+          "label": "Pagamento",
+          "icon": "https://assets.decocache.com/boutique-motors/8d5a08b3-a8aa-4a3c-b87b-4a27eb21b20f/money-send.png",
+          "text": "Receba o pagamento de forma segura em sua conta"
+        }
+      ],
+      "cta": {
+        "href": "#contato",
+        "text": "CONTATE-NOS AGORA"
+      },
+      "showNumericSequence": true
+    },
+    {
+      "__resolveType": "site/sections/OurDifferences.tsx",
+      "title": "Escolha a melhor opção",
+      "cards": [
+        {
+          "label": "VENDA IMEDIATA",
+          "text": "Precisando de dinheiro rápido? Compramos seu veículo e pagamos à vista na hora. Sem complicações, sem espera. Fácil, rápido e garantido!"
+        },
+        {
+          "label": "TROCO NA TROCA",
+          "text": "Quer trocar seu veículo? Na Boutique Motors, você pode sair de carro novo, seja ele de maior ou menor valor! Se o novo for mais caro, negociamos a diferença. Se for mais barato, você recebe o troco em dinheiro na hora. Simples, rápido e vantajoso!"
+        },
+        {
+          "label": "CONSIGNAÇÃO",
+          "text": "Deixe seu veículo conosco e cuidamos de tudo. Anunciamos nos maiores portais e repassamos todas as propostas. Quando o carro for vendido, você recebe o valor à vista, sem complicações. Mais segurança e máximo retorno para você!"
+        }
+      ]
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/google-review.tsx",
+        "backgroundColor": "#ffffff",
+        "title": "<p>Nossas Avaliações no Google</p>",
+        "subtitle": "Opiniões sinceras que nos ajudam a melhorar a cada dia.",
+        "showButton": false,
+        "reviews": [
+          {
+            "name": "Maritchela Pacheco",
+            "comment": "Super indico a loja! Fizemos uma consignação e foi tudo muito eficiente e transparente; vendedor muito atencioso e disponível para negociação e esclarecer dúvidas; com certeza uma ótima escolha! Maritchela",
+            "rating": 5,
+            "date": "28/03/2025",
+            "avatar": "https://assets.decocache.com/boutique-motors/aee37811-aa77-4309-a010-433784d9c344/ALV-UjXSpB3bPqdtAjxm7F0LeXh_f6Jc.png"
+          },
+          {
+            "name": "Paula Faria Leandro",
+            "rating": 5,
+            "comment": "Deixei meu carro consignado na linda Boutique, em menos de 15 dias foi vendido. Equipe muito boa e prestativa. De fato, vendem qualidade!... Quem fez todo o trâmite de consignar e vender foi a Patrícia, sempre presente e atenciosa. Todo o tempo de consignação e negociação foi de paz! Recomendo mesmo! Uma observação: a homenagem feita a Airton Senna nas paredes da loja, é admirável.",
+            "date": "01/10/2024",
+            "avatar": "https://assets.decocache.com/boutique-motors/0fc20ed7-77c8-4cbd-b6ea-f4f5fb2fd19a/ALV-UjULz_KCbT4msfSLrQj1YcP3-fMi.png"
+          },
+          {
+            "name": "Jaguar Despachante",
+            "date": "20/07/2023",
+            "rating": 5,
+            "comment": "Loja extremamente linda, impecável, os melhores carros do Vale do Paraíba, a melhor avaliação do seu usado. Dificilmente você saindo lá sem fechar negócio. Parabéns pela loja.",
+            "avatar": "https://assets.decocache.com/boutique-motors/5598ed33-6151-452d-a67d-a72c8d33388f/ACg8ocKKzHxta1qu7KhK-53B2HHphxQz.png"
+          }
+        ],
+        "overallRating": 5,
+        "totalReviews": 101
+      }
+    },
+    {
+      "__resolveType": "site/sections/FAQ.tsx",
+      "title": "Ainda tem dúvidas?",
+      "questions": [
+        {
+          "content": "Sim, fazemos uma avaliação prévia do seu veículo e, na sequência, combinamos se a avaliação presencial acontecerá em nossa loja ou no seu endereço (mediante disponibilidade).",
+          "label": "Não estou em São José dos Campos, posso vender para a Boutique Motors?"
+        },
+        {
+          "label": "Posso vender qualquer tipo de carro para a Boutique Motors?",
+          "content": "Sim! Trabalhamos com uma ampla variedade de veículos — de clássicos como um Fusca 1966 até modelos premium e zero km, como Porsche e BMW. O mais importante é que o carro atenda aos padrões de qualidade e revenda da Boutique Motors. Todos os veículos passam por uma avaliação criteriosa, que considera conservação, procedência, demanda de mercado e histórico do carro. Quer saber se o seu carro pode ser vendido conosco? Preencha o formulário da página ou fale com a nossa equipe pelo WhatsApp. Teremos prazer em avaliar o seu veículo com total transparência."
+        },
+        {
+          "label": "Como a Boutique Motors define o valor ofertado por um carro?",
+          "content": "Buscamos avaliar os carros de acordo com a sua demanda. Isso porque determinados modelos são mais requisitados por nossos compradores, enquanto outros têm menos procura no mercado, o que nos exige trabalhar com maiores margens de preço. Além disso, levamos em consideração a facilidade de manutenção do veículo, como troca de peças e realização de serviços mecânicos."
+        },
+        {
+          "label": "Como é feito o processo de inspeção do meu carro?",
+          "content": "Levamos em conta diversos detalhes do veículo, principalmente: funcionamento de motor e cambio, estado da lataria, nível de desgaste do estofamento e realizamos um teste de rodagem para avaliar o funcionamento do carro e a eventual necessidade de reparos mecânicos. É também na inspeção que averiguamos se o veículo passou por algum dano que possa ter afetado a sua estrutura, tornando o negócio inviável."
+        },
+        {
+          "label": "Quanto tempo leva para vender o meu carro na Boutique Motors?",
+          "content": "Nós oferecemos duas modalidades de venda: imediata, em que o pagamento é feito à vista, no  fechamento do negócio; e por consignação, em que o cliente aguarda a Garagecar efetuar a venda e, então, receber o valor acertado."
+        },
+        {
+          "label": "A Boutique Motors compra meu carro com financiamento?",
+          "content": "Sim, o valor de quitação deverá ser consultado junto à financeira. Ao fechar o negócio, o seu carro será quitado e o valor descontado do preço final da avaliação."
+        },
+        {
+          "label": "Existe algum tipo de cobrança ou taxas extras?",
+          "content": "Não há cobranças ou taxas extras. Porém, em casos de consignação, podem ser necessários alguns serviços que serão previamente acertados com nossos clientes."
+        },
+        {
+          "label": "Se a documentação do meu carro tiver alguma pendência, a Boutique Motors me ajuda a resolver?\"",
+          "content": "Sim, contamos com uma equipe capacitada para resolver pendências junto ao DETRAN ou a financeiras, sendo esses valores deduzidos no valor da compra do seu veículo. Pois regularizamos toda a documentação para a sua posterior venda."
+        },
+        {
+          "label": "Como a Boutique Motors procede se o meu carro apresentar alguma adulteração?",
+          "content": "Acreditamos na idoneidade dos nossos clientes, mas se notarmos alguma irregularidade técnica ou jurídica no seu veículo, nos sentimos na obrigação de colaborar com as autoridades."
+        },
+        {
+          "label": "Por que fechar negócio com a Boutique Motors?",
+          "content": "A Boutique nasceu da paixão pelas pistas e pela excelência automotiva. Antes de ser loja, fomos — e continuamos sendo — entusiastas, pilotos e apaixonados por carros."
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Maps.tsx",
+      "title": "Venha nos visitar",
+      "sectionId": "unidades",
+      "banners": [
+        {
+          "image": "https://assets.decocache.com/boutique-motors/989ae0c9-305c-448b-ba3a-64a41b66a961/LOJABOUTIQUE-29.png",
+          "alt": "Boutique Motors"
+        },
+        {
+          "image": "https://assets.decocache.com/boutique-motors/2444fbb4-ce70-4ecc-b446-89ee73364295/LOJABOUTIQUE-10.jpg.png",
+          "alt": "Boutique Motors"
+        },
+        {
+          "image": "https://assets.decocache.com/boutique-motors/94690e8f-9318-4fca-8679-40047ab6529d/LOJABOUTIQUE-28.jpg.png",
+          "alt": "Boutique Motors"
+        }
+      ],
+      "map": "<iframe    src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3669.3579843292945!2d-45.9037611!3d-23.215314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc4b87a80048e7%3A0x164427c678dbd0b5!2sBoutique%20Motors!5e0!3m2!1spt-BR!2sbr!4v1713976794291!5m2!1spt-BR!2sbr\"    width=\"100%\"    height=\"100%\"    style=\"border:0;\"    allowfullscreen=\"\"    loading=\"lazy\"    referrerpolicy=\"no-referrer-when-downgrade\"> </iframe>"
+    },
+    {
+      "__resolveType": "site/sections/LeadCapture.tsx",
+      "title": "Preencha seus dados para receber uma avaliação",
+      "sectionId": "contato",
+      "airtable": {
+        "baseId": "appzzwOdJCxeLkj8E",
+        "tableId": "tblBcySEG6YdC24ab",
+        "authToken": "patNORziOSBmYP0f9.88756bd9a0fdb4dde9e14c62fef14e15af7f139addba279bf5d3319e648fb3d5"
+      },
+      "successMessage": "Sucesso! Nossa equipe entrará em contato.",
+      "placeholders": {
+        "submitButtonText": "Enviar",
+        "nome": "Nome",
+        "email": "E-mail",
+        "telefone": "Telefone",
+        "marca": "Marca (Ex. Fiat)",
+        "modelo": "Modelo (Ex. Mobi)",
+        "ano": "Ano/Mod (Ex. 2021)",
+        "kmAtual": "KM Atual (Ex. 2000Km)"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Footer.tsx",
+      "href": "/",
+      "text": "© 2025. Boutique Motors. Todos os Direitos Reservados.",
+      "image": "https://assets.decocache.com/boutique-motors/2e6d81d9-e249-4a87-9c72-bf46c4d389ae/Imagem-do-WhatsApp-de-2025-04-19-a(s)-14.31.28_f7745227.jpg",
+      "alt": "GarageCar Veiculos",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "__resolveType": "website/sections/Analytics/Analytics.tsx",
+      "trackingIds": [
+        "GTM-M9ZPH54V"
+      ]
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx",
+  "path": "/"
+}
