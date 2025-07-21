@@ -229,7 +229,7 @@
           "alt": "Boutique Motors"
         }
       ],
-      "map": "<iframe   src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.3145988223856!2d-48.638449284568605!3d-27.24259408293233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94df3886596c162f%3A0xf4a5d55ea535264e!2sF%C3%A1cilvel%20Ve%C3%ADculos!5e0!3m2!1spt-BR!2sbr!4v1721578301234!5m2!1spt-BR!2sbr\"   width=\"100%\"   height=\"100%\"   style=\"border:0;\"   allowfullscreen=\"\"   loading=\"lazy\"   referrerpolicy=\"no-referrer-when-downgrade\"> </iframe>"
+      "map": "<iframe    src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3547.0465212826734!2d-48.649191324548816!3d-27.249070276448247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d8abd07dd09e27%3A0xf3ef6efda1016125!2zRsOhY2lsdmVsIFZlw61jdWxvcw!5e0!3m2!1spt-BR!2sbr!4v1753130871462!5m2!1spt-BR!2sbr\"    width=\"100%\"    height=\"100%\"    style=\"border:0;\"    allowfullscreen=\"\"    loading=\"lazy\"    referrerpolicy=\"no-referrer-when-downgrade\"> </iframe>"
     },
     {
       "__resolveType": "site/sections/LeadCapture.tsx",
@@ -256,7 +256,7 @@
       "__resolveType": "site/sections/Footer.tsx",
       "href": "/",
       "text": "© 2025. Facilvel. Todos os Direitos Reservados.",
-      "image": "https://assets.decocache.com/facilvel/1deab694-734b-4cd2-817d-d173e1ad8031/images-(9).png",
+      "image": "https://assets.decocache.com/facilvel/f93bbee7-cc16-4204-b5f8-47c801a2078a/images-(9)-Photoroom.png",
       "alt": "Facilvel",
       "width": 64,
       "height": 64
