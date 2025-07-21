@@ -4,10 +4,10 @@
     {
       "__resolveType": "site/sections/Header.tsx",
       "logo": {
-        "image": "https://assets.decocache.com/facilvel/0adb6fb1-884f-4111-9ceb-2434e487c0cd/logo-facilvel.png",
+        "image": "https://assets.decocache.com/facilvel/36815808-c160-4ccd-9102-fde91c36d097/logo-facilvel-1-2.png",
         "alt": "Boutique Motors",
-        "width": 500,
-        "height": 116
+        "width": 300,
+        "height": 100
       },
       "navItems": [
         {
